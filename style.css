@@ -1,24 +1,48 @@
-body{
-    background-color: grey;
+body {
+    margin: 0;
+    padding: 0;
+    background: #eee;
+    font-size: 18px;
 }
-.wrapp{
-    width: 970px;
-    background-color: #ffffff;
-    margin: 0 auto;
-    box-shadow:#D6D6D6 10px ;
-}
-.list{
-    padding: 0 15px 50px 15px;
-}
-.choose, .contacts, .feedback{
-    border-bottom: solid 1px black;
-}
-.choose p, .photo p,.contacts p, .feedback p{
-    padding-left: 15px;
-}
-.photo{
-    background-image: url("1.jpg");
-}
-.photo{
 
+.container  {
+    width: 970px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.row {
+    margin: 0 15px;
+}
+.container-page-about {
+    background: #fff;
+    margin: 5px auto 50px;
+    padding: 30px 0 50px;
+    width: 510px;
+    min-height: 300px;
+    box-shadow: 0 0 2px 1px rgba(213, 213, 213, 1);
+}
+
+.info, .content, .contact {
+    border-bottom: 1px solid #000;
+}
+
+.page-about {
+    margin: 0 50px;
+}
+
+.page-about p {
+    margin-left: 10px;
+}
+
+.page-about .info h2 {
+    font-size: 22px;
+    text-align: center;
+}
+
+.page-about .info .photo-bg {
+    background: url("myphoto.png") no-repeat;
+    margin: 0 auto;
+    width: 140px;
+    height: 131px;
 }
