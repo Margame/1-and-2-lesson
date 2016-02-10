@@ -1,0 +1,24 @@
+body{
+    background-color: grey;
+}
+.wrapp{
+    width: 970px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    box-shadow:#D6D6D6 10px ;
+}
+.list{
+    padding: 0 15px 50px 15px;
+}
+.choose, .contacts, .feedback{
+    border-bottom: solid 1px black;
+}
+.choose p, .photo p,.contacts p, .feedback p{
+    padding-left: 15px;
+}
+.photo{
+    background-image: url("1.jpg");
+}
+.photo{
+
+}
